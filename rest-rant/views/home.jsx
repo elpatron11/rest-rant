@@ -6,14 +6,14 @@ function home () {
         <Def>
             <main>
     <h1>HOME</h1>
-    <div >
-      <img height="300" width="500" src="/images/chia-fruit-drink.jpg" alt="Chia Fruit Shake" />
+    <div className='home'>
+      <img height="300" width="500" src="/images/seafoodrest.jpg" alt="seafoodrest" display="flex"  />
       <div>
-        Photo by <a href="AUTHOR_LINK">Brenda Godinez</a> on <a href="UNSPLASH_LINK">Unsplash</a>
+        Photo by <a href="AUTHOR_LINK">Raul</a> 
       </div>
     </div>
-    <a href="/places">
-        <button className="btn-primary">Places Page</button>
+    <a href="/places" className='button'>
+        <button className="btn btn-primary">Places Page</button>
     </a>
 </main>
         </Def>
